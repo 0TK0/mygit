@@ -6,18 +6,18 @@ package model;
  * @Modified By：
  * @Version: $
  */
-public class ListNode {
+public class ListNode2 {
 
     public int val;
-    public ListNode next;
+    public ListNode2 next;
 
-    public ListNode() {}
+    public ListNode2() {}
 
-    public ListNode(int val) {
+    public ListNode2(int val) {
         this.val = val;
     }
 
-    public ListNode(int val, ListNode next) {
+    public ListNode2(int val, ListNode2 next) {
         this.val = val;
         this.next = next;
     }
